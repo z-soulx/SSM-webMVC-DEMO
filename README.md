@@ -1,2 +1,2 @@
-# SSM-webMVC-DEMO
-ssm的web mvc
+# SpringMVCDemo
+This is a demo of my spring mvc project.
