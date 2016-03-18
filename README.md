@@ -16,6 +16,8 @@ If you've got any problems caused by this upgration, better look up the document
 
 If you have any questions or opinions, you can create issues here. Thanks :)
 
+Welcome to visit my personal blog: [Gaussic](http://gaussic.top)
+
 ---
 
 ### 介绍
@@ -33,4 +35,6 @@ If you have any questions or opinions, you can create issues here. Thanks :)
 任何由升级带来的问题，请查阅[Spring Framework Reference](http://docs.spring.io/spring/docs/4.3.0.BUILD-SNAPSHOT/spring-framework-reference/htmlsingle/)。
 
 如果你有什么问题，或者宝贵的意见，可以在Issues中提出，我会及时回应。谢谢关注 :)
+
+欢迎访问我的个人博客首页：[Gaussic](http://gaussic.top)
 
