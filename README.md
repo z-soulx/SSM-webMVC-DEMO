@@ -30,7 +30,7 @@ Welcome to visit my personal blog: [Gaussic](http://gaussic.top)
 
 最好使用最新版本的 IntelliJ IDEA, JDK 1.7.x，还有Tomcat7.x。
 
-如果你想将Spring版本升级到，请修改 pom.xml。
+如果你想将Spring版本升级到4.x，可修改 pom.xml。
 
 任何由升级带来的问题，请查阅[Spring Framework Reference](http://docs.spring.io/spring/docs/4.3.0.BUILD-SNAPSHOT/spring-framework-reference/htmlsingle/)。
 
