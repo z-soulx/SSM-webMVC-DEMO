@@ -1,6 +1,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
@@ -49,7 +50,8 @@
         </div>
         <div class="form-group">
             <label for="pubDate">Publish Date:</label>
-            <input type="datetime" class="form-control" id="pubDate" name="pubDate" value="${blog.pubDate}"/>
+            <input type="date" class="form-control" id="pubDate" name="pubDate"
+                   value="<fmt:formatDate value="${blog.pubDate }" pattern="yyyy-MM-dd"/>"/>
         </div>
         <!-- 把 id 一并写入 blogP 中 -->
         <input type="hidden" id="id" name="id" value="${blog.id}"/>
