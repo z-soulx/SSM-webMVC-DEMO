@@ -20,10 +20,10 @@ import java.util.List;
 @Controller
 public class BlogController {
 
-    @Autowired
+    @Autowired(required = false)
     BlogRepository blogRepository;
 
-    @Autowired
+    @Autowired(required = false)
     UserRepository userRepository;
 
     // 查看所有博文
