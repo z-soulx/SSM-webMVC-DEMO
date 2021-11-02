@@ -29,8 +29,8 @@
     </bean>
 
     <!-- 表示JPA Repository所在的包 -->
-<!--    <jpa:repositories base-package="com.gaussic.repository"/>-->
-    <!--
+    <jpa:repositories base-package="com.gaussic.repository"/>
+
     <bean id="entityManagerFactory" class="org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean">
         <property name="persistenceUnitName" value="defaultPersistenceUnit"/>
         <property name="packagesToScan" value="com.gaussic.model" />
@@ -65,14 +65,13 @@
                 <prop key="hibernate.c3p0.idle_test_period">3000</prop>
             </props>
         </property>
-    </bean> -->
+    </bean>
 
     <!-- 事务管理 -->
-<!--    <bean id="transactionManager" class="org.springframework.orm.jpa.JpaTransactionManager">-->
-<!--        <property name="entityManagerFactory" ref="entityManagerFactory"/>-->
-<!--    </bean>-->
+    <bean id="transactionManager" class="org.springframework.orm.jpa.JpaTransactionManager">
+        <property name="entityManagerFactory" ref="entityManagerFactory"/>
+    </bean>
 
     <!-- 开启事务管理注解 -->
-<!--    <tx:annotation-driven transaction-manager="transactionManager"/>-->
-
+    <tx:annotation-driven transaction-manager="transactionManager"/>
 </beans>
